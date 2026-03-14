@@ -30,7 +30,7 @@ The audio branch is based on wav2vec 2.0 Large LV-60K ASR.
 The checkpoint used in this project is `wav2vec2_fairseq_large_lv60k_asr_ls960.pth`. In our pipeline, raw audio is first encoded by wav2vec 2.0, and then the mean of the last 4 Transformer layers is used as the final frame-aligned audio representation.
 
 - DINOv2 ViT-L/14 pretrained weight
-https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth
+https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14.pth
 
 - DINOv2 official repository
 https://github.com/facebookresearch/dinov2
