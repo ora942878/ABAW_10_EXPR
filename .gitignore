@@ -1,0 +1,40 @@
+
+
+# python cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# logs
+runs/
+logs/
+outputs/
+
+# model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# features
+*.npy
+*.parquet
+
+# dataset
+Dataset*
+AffWild*
+AffectNet*
+RAFDB*
+
+# videos
+*.mp4
+*.avi
+*.wav
+
+# archives
+*.zip
+*.tar
+*.gz
